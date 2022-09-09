@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>typing game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Typing game</h1>
+    
+    <button id="start">Start Game</button>
+    
+    <section id="stats" class="hidden">
+        <div>WPM: <span id="wpm"></span></div>
+        <div>Score:<span id="score"></span></div>
+        <div>Time left:<span id="time"></span></div>
+    </section>
+
+    <section id="game" class="hidden">
+
+        <div id="word-to-type"></div>
+        <div id="words-container"></div>
+        <form id="word-form">
+            <input type="text" id="word-input">
+        </form>
+
+    </section>
+    
+    <script type="module" src="script.js"></script>
+</body>
+</html>

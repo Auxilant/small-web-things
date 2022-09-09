@@ -1,0 +1,20 @@
+.hidden {
+    display: none;
+}
+
+.correct-word {
+    background-color: greenyellow;
+}
+
+.wrong-word {
+    background-color: red;
+}
+
+.typed-word {
+    padding: 10px;
+}
+
+#words-container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
